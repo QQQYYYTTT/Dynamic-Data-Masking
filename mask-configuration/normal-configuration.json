@@ -1,0 +1,66 @@
+[
+    {
+        "DataBaseName": "bisheInformation",
+        "tables": [
+            {
+                "tableName": "studentInformation",
+                "fields": [
+                    {
+                        "fieldName": "sid",
+                        "mask": "NoMasking",
+                        "parameter": []
+                    },
+                    {
+                        "fieldName": "sname",
+                        "mask": "ReplaceMasking",
+                        "parameter": [
+                            "name"
+                        ]
+                    },
+                    {
+                        "fieldName": "sphone",
+                        "mask": "StarMasking",
+                        "parameter": [
+                            5
+                        ]
+                    },
+                    {
+                        "fieldName": "saddress",
+                        "mask": "StarMasking",
+                        "parameter": [
+                            5
+                        ]
+                    },
+                    {
+                        "fieldName": "semail",
+                        "mask": "StarMasking",
+                        "parameter": [
+                            5
+                        ]
+                    },
+                    {
+                        "fieldName": "sps",
+                        "mask": "StarMasking",
+                        "parameter": [
+                            5
+                        ]
+                    },
+                    {
+                        "fieldName": "sage",
+                        "mask": "StarMasking",
+                        "parameter": [
+                            5
+                        ]
+                    },
+                    {
+                        "fieldName": "salary",
+                        "mask": "StarMasking",
+                        "parameter": [
+                            5
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,87 @@
+[
+{
+  "directory": "/mnt/d/0E/数据库/Dynamic-Data-Masking/build",
+  "command": "/usr/bin/c++   -I/mnt/d/0E/数据库/Dynamic-Data-Masking/src/include    -std=gnu++17 -o CMakeFiles/server.dir/src/dynamic_main.cpp.o -c /mnt/d/0E/数据库/Dynamic-Data-Masking/src/dynamic_main.cpp",
+  "file": "/mnt/d/0E/数据库/Dynamic-Data-Masking/src/dynamic_main.cpp"
+},
+{
+  "directory": "/mnt/d/0E/数据库/Dynamic-Data-Masking/build",
+  "command": "/usr/bin/c++   -I/mnt/d/0E/数据库/Dynamic-Data-Masking/src/include    -std=gnu++17 -o CMakeFiles/server.dir/src/MysqlOperator.cpp.o -c /mnt/d/0E/数据库/Dynamic-Data-Masking/src/MysqlOperator.cpp",
+  "file": "/mnt/d/0E/数据库/Dynamic-Data-Masking/src/MysqlOperator.cpp"
+},
+{
+  "directory": "/mnt/d/0E/数据库/Dynamic-Data-Masking/build",
+  "command": "/usr/bin/c++   -I/mnt/d/0E/数据库/Dynamic-Data-Masking/src/include    -std=gnu++17 -o CMakeFiles/server.dir/src/BaseDetector.cpp.o -c /mnt/d/0E/数据库/Dynamic-Data-Masking/src/BaseDetector.cpp",
+  "file": "/mnt/d/0E/数据库/Dynamic-Data-Masking/src/BaseDetector.cpp"
+},
+{
+  "directory": "/mnt/d/0E/数据库/Dynamic-Data-Masking/build",
+  "command": "/usr/bin/c++   -I/mnt/d/0E/数据库/Dynamic-Data-Masking/src/include    -std=gnu++17 -o CMakeFiles/server.dir/src/PhoneDetector.cpp.o -c /mnt/d/0E/数据库/Dynamic-Data-Masking/src/PhoneDetector.cpp",
+  "file": "/mnt/d/0E/数据库/Dynamic-Data-Masking/src/PhoneDetector.cpp"
+},
+{
+  "directory": "/mnt/d/0E/数据库/Dynamic-Data-Masking/build",
+  "command": "/usr/bin/c++   -I/mnt/d/0E/数据库/Dynamic-Data-Masking/src/include    -std=gnu++17 -o CMakeFiles/server.dir/src/DetectorManager.cpp.o -c /mnt/d/0E/数据库/Dynamic-Data-Masking/src/DetectorManager.cpp",
+  "file": "/mnt/d/0E/数据库/Dynamic-Data-Masking/src/DetectorManager.cpp"
+},
+{
+  "directory": "/mnt/d/0E/数据库/Dynamic-Data-Masking/build",
+  "command": "/usr/bin/c++   -I/mnt/d/0E/数据库/Dynamic-Data-Masking/src/include    -std=gnu++17 -o CMakeFiles/server.dir/src/BaseMasking.cpp.o -c /mnt/d/0E/数据库/Dynamic-Data-Masking/src/BaseMasking.cpp",
+  "file": "/mnt/d/0E/数据库/Dynamic-Data-Masking/src/BaseMasking.cpp"
+},
+{
+  "directory": "/mnt/d/0E/数据库/Dynamic-Data-Masking/build",
+  "command": "/usr/bin/c++   -I/mnt/d/0E/数据库/Dynamic-Data-Masking/src/include    -std=gnu++17 -o CMakeFiles/server.dir/src/StarMasking.cpp.o -c /mnt/d/0E/数据库/Dynamic-Data-Masking/src/StarMasking.cpp",
+  "file": "/mnt/d/0E/数据库/Dynamic-Data-Masking/src/StarMasking.cpp"
+},
+{
+  "directory": "/mnt/d/0E/数据库/Dynamic-Data-Masking/build",
+  "command": "/usr/bin/c++   -I/mnt/d/0E/数据库/Dynamic-Data-Masking/src/include    -std=gnu++17 -o CMakeFiles/server.dir/src/AddressMasking.cpp.o -c /mnt/d/0E/数据库/Dynamic-Data-Masking/src/AddressMasking.cpp",
+  "file": "/mnt/d/0E/数据库/Dynamic-Data-Masking/src/AddressMasking.cpp"
+},
+{
+  "directory": "/mnt/d/0E/数据库/Dynamic-Data-Masking/build",
+  "command": "/usr/bin/c++   -I/mnt/d/0E/数据库/Dynamic-Data-Masking/src/include    -std=gnu++17 -o CMakeFiles/server.dir/src/SensitiveFieldsManager.cpp.o -c /mnt/d/0E/数据库/Dynamic-Data-Masking/src/SensitiveFieldsManager.cpp",
+  "file": "/mnt/d/0E/数据库/Dynamic-Data-Masking/src/SensitiveFieldsManager.cpp"
+},
+{
+  "directory": "/mnt/d/0E/数据库/Dynamic-Data-Masking/build",
+  "command": "/usr/bin/c++   -I/mnt/d/0E/数据库/Dynamic-Data-Masking/src/include    -std=gnu++17 -o CMakeFiles/server.dir/src/EmailMasking.cpp.o -c /mnt/d/0E/数据库/Dynamic-Data-Masking/src/EmailMasking.cpp",
+  "file": "/mnt/d/0E/数据库/Dynamic-Data-Masking/src/EmailMasking.cpp"
+},
+{
+  "directory": "/mnt/d/0E/数据库/Dynamic-Data-Masking/build",
+  "command": "/usr/bin/c++   -I/mnt/d/0E/数据库/Dynamic-Data-Masking/src/include    -std=gnu++17 -o CMakeFiles/server.dir/src/GeneralizationMasking.cpp.o -c /mnt/d/0E/数据库/Dynamic-Data-Masking/src/GeneralizationMasking.cpp",
+  "file": "/mnt/d/0E/数据库/Dynamic-Data-Masking/src/GeneralizationMasking.cpp"
+},
+{
+  "directory": "/mnt/d/0E/数据库/Dynamic-Data-Masking/build",
+  "command": "/usr/bin/c++   -I/mnt/d/0E/数据库/Dynamic-Data-Masking/src/include    -std=gnu++17 -o CMakeFiles/server.dir/src/DbField.cpp.o -c /mnt/d/0E/数据库/Dynamic-Data-Masking/src/DbField.cpp",
+  "file": "/mnt/d/0E/数据库/Dynamic-Data-Masking/src/DbField.cpp"
+},
+{
+  "directory": "/mnt/d/0E/数据库/Dynamic-Data-Masking/build",
+  "command": "/usr/bin/c++   -I/mnt/d/0E/数据库/Dynamic-Data-Masking/src/include    -std=gnu++17 -o CMakeFiles/server.dir/src/DbTable.cpp.o -c /mnt/d/0E/数据库/Dynamic-Data-Masking/src/DbTable.cpp",
+  "file": "/mnt/d/0E/数据库/Dynamic-Data-Masking/src/DbTable.cpp"
+},
+{
+  "directory": "/mnt/d/0E/数据库/Dynamic-Data-Masking/build",
+  "command": "/usr/bin/c++   -I/mnt/d/0E/数据库/Dynamic-Data-Masking/src/include    -std=gnu++17 -o CMakeFiles/server.dir/src/StructureMasking.cpp.o -c /mnt/d/0E/数据库/Dynamic-Data-Masking/src/StructureMasking.cpp",
+  "file": "/mnt/d/0E/数据库/Dynamic-Data-Masking/src/StructureMasking.cpp"
+},
+{
+  "directory": "/mnt/d/0E/数据库/Dynamic-Data-Masking/build",
+  "command": "/usr/bin/c++   -I/mnt/d/0E/数据库/Dynamic-Data-Masking/src/include    -std=gnu++17 -o CMakeFiles/server.dir/src/ReplaceMasking.cpp.o -c /mnt/d/0E/数据库/Dynamic-Data-Masking/src/ReplaceMasking.cpp",
+  "file": "/mnt/d/0E/数据库/Dynamic-Data-Masking/src/ReplaceMasking.cpp"
+},
+{
+  "directory": "/mnt/d/0E/数据库/Dynamic-Data-Masking/build",
+  "command": "/usr/bin/c++   -I/mnt/d/0E/数据库/Dynamic-Data-Masking/src/include    -std=gnu++17 -o CMakeFiles/server.dir/src/NoiseMasking.cpp.o -c /mnt/d/0E/数据库/Dynamic-Data-Masking/src/NoiseMasking.cpp",
+  "file": "/mnt/d/0E/数据库/Dynamic-Data-Masking/src/NoiseMasking.cpp"
+},
+{
+  "directory": "/mnt/d/0E/数据库/Dynamic-Data-Masking/build",
+  "command": "/usr/bin/c++   -I/mnt/d/0E/数据库/Dynamic-Data-Masking/src/include    -std=gnu++17 -o CMakeFiles/server.dir/src/AccountManager.cpp.o -c /mnt/d/0E/数据库/Dynamic-Data-Masking/src/AccountManager.cpp",
+  "file": "/mnt/d/0E/数据库/Dynamic-Data-Masking/src/AccountManager.cpp"
+}
+]
