@@ -1,5 +1,14 @@
-# Frontend
+# 前端工程
 
-Vue frontend scaffold for the dynamic data masking management system.
+本目录用于放置动态数据脱敏系统的 Vue 前端代码。
 
-Planned pages: login, dashboard, student query, sensitive field management, masking rule management, audit logs, user and role management.
+计划页面：
+
+- 登录页
+- 仪表盘
+- 学生信息查询页
+- 敏感字段管理页
+- 脱敏规则管理页
+- 安全审计日志页
+- 用户管理页
+- 角色权限管理页

@@ -1,3 +1,21 @@
-# Docs
+# 项目文档索引
 
-Project documentation area for API contracts, design notes, and demonstration materials.
+本目录用于维护“动态数据脱敏系统”的项目记忆，供开发者和 Codex 在后续协作时持续查阅与更新。
+
+## 文档地图
+
+- `product/PRD.md`：产品需求文档，描述项目目标、角色、功能范围和演示重点。
+- `constitution/PROJECT_CONSTITUTION.md`：项目宪法，规定目录结构、命名规范、开发约定和文档维护规则。
+- `progress/PROGRESS.md`：项目进度文档，由 Codex 在每次开发会话结束时更新。
+- `api/API_CONTRACT.md`：接口契约文档。每次新增、删除或修改接口时必须同步更新。
+- `data/DATA_DICTIONARY.md`：数据字典。每次修改表结构、字段、关系、索引、视图、存储过程或触发器时必须同步更新。
+- `design/`：技术设计说明。
+- `demo/`：答辩演示脚本、截图、流程和展示材料。
+
+## 原始需求资料
+
+项目根目录下的三份文档是当前项目的原始需求依据：
+
+- `项目业务逻辑设计v2.md`
+- `用户角色权限管理表v2.md`
+- `数据库建表数据结构v3.md`
