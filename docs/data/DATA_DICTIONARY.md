@@ -496,3 +496,23 @@
 - 生成真实 SQL 脚本后，应将表结构与本文件保持一致。
 - 如果后续为了实现方便调整字段，必须同步更新本文件。
 - 如果接口返回字段与数据库字段映射不同，应在接口契约中补充说明。
+
+## 9. SQL 脚本落地状态
+
+当前已将数据库设计拆分到 `database/` 目录：
+
+| 类型 | 文件 |
+|---|---|
+| 建表脚本 | `database/ddl/01_schema.sql` |
+| 角色权限预置数据 | `database/seed/01_seed_roles_permissions.sql` |
+| 用户预置数据 | `database/seed/02_seed_users.sql` |
+| 脱敏配置预置数据 | `database/seed/03_seed_masking_config.sql` |
+| 学生与成绩测试数据 | `database/seed/04_seed_student_data.sql` |
+| 统一脱敏函数 | `database/procedure/01_fn_apply_mask.sql` |
+| 学生信息动态脱敏查询过程 | `database/procedure/02_query_students.sql` |
+| 学生成绩动态脱敏查询过程 | `database/procedure/03_query_student_scores.sql` |
+| 异常访问检测过程 | `database/procedure/04_detect_abnormal.sql` |
+| 策略变更日志触发器 | `database/trigger/01_policy_change_log.sql` |
+| 脱敏配置视图 | `database/view/01_masking_config_view.sql` |
+
+脚本默认数据库名为 `dynamic_data_masking`，与后端 `application.yml` 当前配置保持一致。

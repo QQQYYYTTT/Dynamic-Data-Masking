@@ -99,6 +99,31 @@ Authorization: Bearer <token>
 
 ## 3. 登录认证接口
 
+### 3.0 健康检查
+
+| 项 | 内容 |
+|---|---|
+| 接口名称 | 后端健康检查 |
+| 请求方法 | `GET` |
+| 接口路径 | `/api/health` |
+| 所需权限 | 无 |
+| 是否写入审计 | 否 |
+| 是否返回脱敏数据 | 否 |
+
+响应字段：
+
+```json
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "status": "UP",
+    "service": "dynamic-data-masking-backend"
+  },
+  "timestamp": "2026-06-18 23:20:00"
+}
+```
+
 ### 3.1 用户登录
 
 | 项 | 内容 |
@@ -143,9 +168,17 @@ Authorization: Bearer <token>
 |---|---|
 | 请求方法 | `POST` |
 | 接口路径 | `/api/auth/logout` |
-| 所需权限 | 已登录 |
+| 所需权限 | 已登录，需要 `Authorization: Bearer <token>` |
 | 是否写入审计 | 可选 |
 | 是否返回脱敏数据 | 否 |
+
+响应字段：
+
+```json
+{
+  "loggedOut": true
+}
+```
 
 ### 3.3 当前用户信息
 
@@ -153,11 +186,28 @@ Authorization: Bearer <token>
 |---|---|
 | 请求方法 | `GET` |
 | 接口路径 | `/api/auth/me` |
-| 所需权限 | 已登录 |
+| 所需权限 | 已登录，需要 `Authorization: Bearer <token>` |
 | 是否写入审计 | 否 |
 | 是否返回脱敏数据 | 否 |
 
 返回当前用户、角色、权限和前端菜单所需信息。
+
+响应字段：
+
+```json
+{
+  "userId": 5,
+  "username": "teacher01",
+  "realName": "张老师",
+  "roles": ["TEACHER"],
+  "permissions": [
+    "MENU:DASHBOARD",
+    "MENU:STUDENT_QUERY",
+    "API:STUDENT_QUERY",
+    "DATA:VIEW_MASKED"
+  ]
+}
+```
 
 ## 4. 学生信息接口
 
